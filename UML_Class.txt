@@ -1,0 +1,24 @@
+Fan
+-------------------------
++ SLOW : int = 1;
++ MEDIUM : int = 2;
++ FAST : int = 3;
+
+- speed : int = SLOW
+- on : boolean = false
+- radius : double = 5
+- color : String = "blue"
+-------------------------
+Fan()
+
++ getSpeed() : int
++ getState() : boolean
++ getRadius() : double
++ getColor() : String
+
++ setSpeed(int newSpeed) : void
++ setState(boolean newState) : void
++ setRadius(boolean newRadius) : void
++ setColor(String newColor) : void
+
++ toString() : String
